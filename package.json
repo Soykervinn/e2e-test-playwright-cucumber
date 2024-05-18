@@ -1,0 +1,28 @@
+{
+  "name": "e2e-test-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "This is a test framework built integrating Playwright and Cucumber to Quality Assurance of UI flows in a web site. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "Kervinn Aguilera",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.7.0",
+    "@playwright/test": "^1.44.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.44.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.1"
+  }
+}
