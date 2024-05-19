@@ -1,0 +1,25 @@
+{
+  "name": "Darth",
+  "lastName": "Vader",
+  "email": "darthvader@star.com",
+  "company": "Apply Digital",
+  "addressInformation": {
+    "address_1": "Tatooine 1977, Box 13, Death Star",
+    "address_2": "The Emprire 1985, Box 66 Death Star",
+    "state": "Tatooine",
+    "city": "Buenos Aires",
+    "zipCode": "1369",
+    "mobileNumber": "555-555-5555"
+  },
+  "comment": "This is a purchase order for the Death Star. Please send it to the address that I already informed you.",
+  "creditCard": {
+    "name": "Darth Vader",
+    "cardNumber": "1234 5678 9101 1121",
+    "expirationDate": {
+      "month": "12",
+      "year": "2028"
+    },
+    "cvv": "123"
+  },
+  "message": "Hi, my name is Darth Vader and I would like to know where is my purchase order. I already sent you the payment information. Please let me know if you need anything else."
+}
