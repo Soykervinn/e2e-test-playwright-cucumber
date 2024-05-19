@@ -2,6 +2,7 @@ import { Given, When, Then, setDefaultTimeout, Before, After } from "@cucumber/c
 import { browser, browserContext, page, initialize, close } from "../utils/handler-page";
 import loginElements from "../locators/loginElements";
 import { login } from "../pages/login";
+import { expect } from '@playwright/test';
 import '../utils/setup'
 //import signupElements from '../locators/signUpElements';
 
